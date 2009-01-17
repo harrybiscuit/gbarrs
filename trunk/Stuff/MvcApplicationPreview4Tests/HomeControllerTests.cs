@@ -14,14 +14,14 @@ namespace MvcApplicationPreview4Tests
         [Row("Index",Colour.red)]
         [Row("About",Colour.blue)]
         [Category("Unit")]
-        public void Home_FirstVisit_ViewDataContainsDefaultColour(string methodName, Colour expectedColour)
+        public void Home_ActionCalled_ViewDataContainsExpectedColour(string actionName, Colour expectedColour)
         {
             // arrange
             var theExpectedColour = expectedColour;
 
             // act
             var homeController = new HomeController();
-            var viewResult = CallControllerMethodAndReturnViewResult(homeController, methodName) ;
+            var viewResult = CallControllerMethodAndReturnViewResult(homeController, actionName) ;
            
             // assert
             Assert.That(viewResult, Is.Not.Null);
