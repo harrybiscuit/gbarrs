@@ -1,0 +1,107 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="EFB29E51-58D4-467E-8A6D-3D3CA1B4FED5/f:ToDo.txt" caret="125" scrollPosition="0|0" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="259" scrollPosition="0|0" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:Models/f:Colour.cs" caret="114" scrollPosition="0|0" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:Controllers/f:HomeController.cs" caret="516" scrollPosition="0|8" />
+      <File id="E969BD51-27DB-4414-83BC-CC91CE5D79CC/f:HomeControllerTests.cs" caret="392" scrollPosition="4|0" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:__RESHARPER__DummyWebPages_/f:Site.css" caret="617" scrollPosition="0|0" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="2207" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="EFB29E51-58D4-467E-8A6D-3D3CA1B4FED5/f:ToDo.txt" caret="125" scrollPosition="0|0" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:Models/f:Colour.cs" caret="117" scrollPosition="0|6" />
+      <File id="E969BD51-27DB-4414-83BC-CC91CE5D79CC/f:HomeControllerTests.cs" caret="0" scrollPosition="0|0" />
+      <File id="E969BD51-27DB-4414-83BC-CC91CE5D79CC/f:HomeControllerTests.cs" caret="1082" scrollPosition="0|19" />
+      <File id="E969BD51-27DB-4414-83BC-CC91CE5D79CC/f:HomeControllerTests.cs" caret="1700" scrollPosition="0|11" />
+      <File id="E969BD51-27DB-4414-83BC-CC91CE5D79CC/f:HomeControllerTests.cs" caret="1667" scrollPosition="0|31" />
+      <File id="E969BD51-27DB-4414-83BC-CC91CE5D79CC/f:HomeControllerTests.cs" caret="1658" scrollPosition="0|31" />
+      <File id="E969BD51-27DB-4414-83BC-CC91CE5D79CC/f:HomeControllerTests.cs" caret="1250" scrollPosition="0|16" />
+      <File id="E969BD51-27DB-4414-83BC-CC91CE5D79CC/f:HomeControllerTests.cs" caret="928" scrollPosition="0|13" />
+      <File id="E969BD51-27DB-4414-83BC-CC91CE5D79CC/f:HomeControllerTests.cs" caret="1235" scrollPosition="1|20" />
+      <File id="E969BD51-27DB-4414-83BC-CC91CE5D79CC/f:HomeControllerTests.cs" caret="797" scrollPosition="22|12" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="255" scrollPosition="0|0" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:Models/f:Colour.cs" caret="114" scrollPosition="0|0" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:Controllers/f:HomeController.cs" caret="654" scrollPosition="0|16" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:Controllers/f:HomeController.cs" caret="470" scrollPosition="0|8" />
+      <File id="E969BD51-27DB-4414-83BC-CC91CE5D79CC/f:HomeControllerTests.cs" caret="392" scrollPosition="4|6" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:__RESHARPER__DummyWebPages_/f:Site.css" caret="3694" scrollPosition="0|5" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:__RESHARPER__DummyWebPages_/f:Site.css" caret="3694" scrollPosition="0|5" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="2223" scrollPosition="0|4" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="681" scrollPosition="0|4" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:__RESHARPER__DummyWebPages_/f:Site.css" caret="496" scrollPosition="0|9" />
+      <File id="77DD44C1-F253-4614-B08C-CFF7C5F6FD52/d:__RESHARPER__DummyWebPages_/f:Site.css" caret="617" scrollPosition="0|9" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="0" />
+      <Item value="test" priority="0" />
+      <Item value="var" priority="4" />
+      <Item value="new" priority="1" />
+      <Item value="HomeControllerTests" priority="0" />
+      <Item value="homeController" priority="2" />
+      <Item value="Assert" priority="3" />
+      <Item value="viewResult" priority="1" />
+      <Item value="as" priority="3" />
+      <Item value="ViewResult" priority="1" />
+      <Item value="Is" priority="0" />
+      <Item value="Colour" priority="6" />
+      <Item value="actualColour" priority="0" />
+      <Item value="expectedColour" priority="1" />
+      <Item value="else" priority="0" />
+      <Item value="ViewData" priority="2" />
+      <Item value="HomeController" priority="1" />
+      <Item value="CallHomeControllerMethodAndReturnViewResult" priority="0" />
+      <Item value="Controller" priority="0" />
+      <Item value="return" priority="0" />
+      <Item value="Row" priority="1" />
+      <Item value="string" priority="0" />
+      <Item value="theExpectedColour" priority="0" />
+      <Item value="methodName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MvcApplicationPreview4.Models.Colour">
+      <Item value="Red" priority="3" />
+      <Item value="Blue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApplicationPreview4.Controllers.HomeController">
+      <Item value="Index" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="That" priority="1" />
+      <Item value="Fail" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.SyntaxHelpers.Is">
+      <Item value="Not" priority="1" />
+      <Item value="SameAs" priority="0" />
+      <Item value="EqualTo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NUnit.Framework.Constraints.ConstraintBuilder">
+      <Item value="Null" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ViewResult">
+      <Item value="ViewData" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
