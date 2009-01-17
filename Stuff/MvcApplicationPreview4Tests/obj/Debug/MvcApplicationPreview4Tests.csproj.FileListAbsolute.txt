@@ -1,0 +1,12 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Stuff\MvcApplicationPreview4Tests\bin\Debug\MvcApplicationPreview4Tests.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Stuff\MvcApplicationPreview4Tests\bin\Debug\MvcApplicationPreview4Tests.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Stuff\MvcApplicationPreview4Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Stuff\MvcApplicationPreview4Tests\obj\Debug\MvcApplicationPreview4Tests.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Stuff\MvcApplicationPreview4Tests\obj\Debug\MvcApplicationPreview4Tests.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Stuff\MvcApplicationPreview4Tests\bin\Debug\MvcApplicationPreview4.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Stuff\MvcApplicationPreview4Tests\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Stuff\MvcApplicationPreview4Tests\bin\Debug\nunit.framework.extensions.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Stuff\MvcApplicationPreview4Tests\bin\Debug\System.Web.Mvc.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Stuff\MvcApplicationPreview4Tests\bin\Debug\System.Web.Routing.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Stuff\MvcApplicationPreview4Tests\bin\Debug\System.Web.Abstractions.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\Stuff\MvcApplicationPreview4Tests\bin\Debug\MvcApplicationPreview4.pdb
