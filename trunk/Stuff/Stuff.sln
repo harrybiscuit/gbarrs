@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RowTestsAndMVC", "RowTestsAndMVC", "{1ACDAA6D-FF14-42FB-AC3A-CB524D6D338D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RowTestsAndMvc", "MvcApplicationPreview4\RowTestsAndMvc.csproj", "{77DD44C1-F253-4614-B08C-CFF7C5F6FD52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RowTestsAndMvc", "RowTestsAndMvc\RowTestsAndMvc.csproj", "{77DD44C1-F253-4614-B08C-CFF7C5F6FD52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RowTestsAndMvcTests", "MvcApplicationPreview4Tests\RowTestsAndMvcTests.csproj", "{E969BD51-27DB-4414-83BC-CC91CE5D79CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RowTestsAndMvcTests", "RowTestsAndMvcTests\RowTestsAndMvcTests.csproj", "{E969BD51-27DB-4414-83BC-CC91CE5D79CC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EFB29E51-58D4-467E-8A6D-3D3CA1B4FED5}"
 	ProjectSection(SolutionItems) = preProject

@@ -61,7 +61,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MvcApplicationPreview4\RowTestsAndMvc.csproj">
+    <ProjectReference Include="..\RowTestsAndMvc\RowTestsAndMvc.csproj">
       <Project>{77DD44C1-F253-4614-B08C-CFF7C5F6FD52}</Project>
       <Name>RowTestsAndMvc %28RowTestsAndMVC\RowTestsAndMvc%29</Name>
     </ProjectReference>
