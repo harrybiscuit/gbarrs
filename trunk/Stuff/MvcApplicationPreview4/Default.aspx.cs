@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Web.UI;
 
-namespace MvcApplicationPreview4
+namespace RowTestsAndMvc
 {
-    public partial class _Default : Page
+    public class _Default : Page
     {
-        public void Page_Load(object sender, System.EventArgs e)
+        public void Page_Load(object sender, EventArgs e)
         {
             Response.Redirect("~/Home");
         }

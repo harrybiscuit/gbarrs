@@ -8,8 +8,8 @@
     <ProjectGuid>{E969BD51-27DB-4414-83BC-CC91CE5D79CC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MvcApplicationPreview4Tests</RootNamespace>
-    <AssemblyName>MvcApplicationPreview4Tests</AssemblyName>
+    <RootNamespace>RowTestsAndMvcTests</RootNamespace>
+    <AssemblyName>RowTestsAndMvcTests</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -61,9 +61,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MvcApplicationPreview4\MvcApplicationPreview4.csproj">
+    <ProjectReference Include="..\MvcApplicationPreview4\RowTestsAndMvc.csproj">
       <Project>{77DD44C1-F253-4614-B08C-CFF7C5F6FD52}</Project>
-      <Name>MvcApplicationPreview4</Name>
+      <Name>RowTestsAndMvc %28RowTestsAndMVC\RowTestsAndMvc%29</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

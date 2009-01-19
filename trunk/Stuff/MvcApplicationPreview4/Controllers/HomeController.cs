@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using MvcApplicationPreview4.Models;
+﻿using System.Web.Mvc;
+using RowTestsAndMvc.Models;
 
-namespace MvcApplicationPreview4.Controllers
+namespace RowTestsAndMvc.Controllers
 {
     [HandleError]
     public class HomeController : Controller

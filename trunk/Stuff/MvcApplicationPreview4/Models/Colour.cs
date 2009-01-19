@@ -1,4 +1,4 @@
-﻿namespace MvcApplicationPreview4.Models
+﻿namespace RowTestsAndMvc.Models
 {
     public enum Colour
     {
