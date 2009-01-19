@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" AutoEventWireup="true" CodeBehind="Error.aspx.cs" Inherits="MvcApplicationPreview4.Views.Shared.Error" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" AutoEventWireup="true" CodeBehind="Error.aspx.cs" Inherits="RowTestsAndMvc.Views.Shared.Error" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h2>
         Sorry, an error occurred while processing your request.

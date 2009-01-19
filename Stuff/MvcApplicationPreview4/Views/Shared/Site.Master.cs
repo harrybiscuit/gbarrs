@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace MvcApplicationPreview4.Views.Shared
+namespace RowTestsAndMvc.Views.Shared
 {
-    public partial class Site : System.Web.Mvc.ViewMasterPage
+    public partial class Site : ViewMasterPage
     {
     }
 }

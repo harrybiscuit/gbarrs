@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MvcApplicationPreview4.Views.Account
+namespace RowTestsAndMvc.Views.Account
 {
 
 

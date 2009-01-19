@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="MvcApplicationPreview4.Views.Account.Login" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="RowTestsAndMvc.Views.Account.Login" %>
 
 <asp:Content ID="loginContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2>Login</h2>

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MvcApplicationPreview4.Views.Shared
+namespace RowTestsAndMvc.Views.Shared
 {
 
 
