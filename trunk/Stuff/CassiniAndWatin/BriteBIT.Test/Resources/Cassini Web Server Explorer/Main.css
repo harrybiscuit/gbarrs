@@ -1,0 +1,140 @@
+H1
+{
+
+    FONT-WEIGHT: bold;
+
+    FONT-SIZE: 9pt;
+
+    FONT-FAMILY: Arial, Helvetica, sans-serif; font-style: normal
+; color: #555555
+}
+H2
+{
+	font-weight: bold;
+	font-size: 12pt;
+	color: #555555;
+	font-style: normal;
+	font-family: 'Century Gothic' , Arial, Helvetica, sans-serif;
+}
+
+H4
+{
+	font-weight: bold;
+	font-size: 9pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	color: #555555;
+} 
+
+TD
+{
+	font-weight: normal;
+	font-size: 9pt;
+	color: #222222;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+BODY
+{
+	font-weight: normal;
+	font-size: 9pt;
+	color: #222222;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+P
+{
+	font-weight: normal;
+	font-size: 9pt;
+	color: #222222;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 11pt;
+}
+
+A:hover
+
+{
+
+    COLOR: #E86F0E;
+
+    FONT-STYLE: normal;
+
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+
+    TEXT-DECORATION: underline
+; font-size: 9pt
+}
+
+A
+
+{
+
+    FONT-WEIGHT: normal;
+
+    COLOR: #888888;
+
+    FONT-STYLE: normal;
+
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+
+    TEXT-DECORATION: underline
+; font-size: 9pt
+}
+
+
+li {  font-size: 9pt; FONT-FAMILY: Arial, Helvetica, sans-serif; color: #555555; line-height: 11pt}
+
+.footer
+{
+
+    FONT-WEIGHT: normal;
+
+    FONT-SIZE: 8pt;
+
+    COLOR: #888888;
+
+    FONT-STYLE: normal;
+
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+
+}
+.footer A {    FONT-WEIGHT: normal;
+
+    COLOR: #777777;
+
+    FONT-STYLE: normal;
+
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+
+    TEXT-DECORATION: underline
+; font-size: 8pt}
+
+.footer A:hover {    COLOR: #E86F0E;
+
+    FONT-STYLE: normal;
+
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+
+    TEXT-DECORATION: underline
+; font-size: 8pt}
+
+
+.ErrorSummary
+{
+	border-right: red 3px double;
+	border-top: red 3px double;
+	border-left: red 3px double;
+	border-bottom: red 3px double;
+}
+
+.TextBox
+{
+	border-right: chocolate 1px solid;
+	border-top: chocolate 1px solid;
+	border-left: chocolate 1px solid;
+	color: #303030;
+	border-bottom: chocolate 1px solid;
+}
