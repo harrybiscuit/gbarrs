@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		ToDo.txt = ToDo.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseProjects", "DatabaseProjects", "{E25FAF52-BF6E-447B-AD01-F995B1850EA9}"
+EndProject
+Project("{4F174C21-8C12-11D0-8340-0000F80270F8}") = "StuffDatabase", "StuffDatabase\StuffDatabase\StuffDatabase.dbp", "{497D2B83-2548-43EA-AB2B-C7D4DEAA8896}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,5 +37,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{77DD44C1-F253-4614-B08C-CFF7C5F6FD52} = {1ACDAA6D-FF14-42FB-AC3A-CB524D6D338D}
 		{E969BD51-27DB-4414-83BC-CC91CE5D79CC} = {1ACDAA6D-FF14-42FB-AC3A-CB524D6D338D}
+		{497D2B83-2548-43EA-AB2B-C7D4DEAA8896} = {E25FAF52-BF6E-447B-AD01-F995B1850EA9}
 	EndGlobalSection
 EndGlobal

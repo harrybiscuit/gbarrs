@@ -1,2 +1,5 @@
-Add Web Deployment 
+Web Deployment 
 http://weblogs.asp.net/scottgu/archive/2008/01/28/vs-2008-web-deployment-project-support-released.aspx
+
+
+Logging using built-in .NET classes

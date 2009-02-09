@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ApplicationsDataSet" targetNamespace="http://tempuri.org/ApplicationsDataSet.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/ApplicationsDataSet.xsd"
+	xmlns:mstns="http://tempuri.org/ApplicationsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="ApplicationsDataSet" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="CassiniApplications">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ApplicationID" type="xs:string" minOccurs="0" />
+							<xs:element name="PhysicalPath" type="xs:string" minOccurs="0" />
+							<xs:element name="Port" type="xs:int" minOccurs="0" />
+							<xs:element name="IsRunning" type="xs:boolean" minOccurs="0" />
+							<xs:element name="FriendlyName" type="xs:string" minOccurs="0" />
+							<xs:element name="Name" type="xs:string" minOccurs="0" />
+							<xs:element name="Description" type="xs:string" minOccurs="0" />
+							<xs:element name="MachineNameURL" type="xs:anyURI" minOccurs="0" />
+							<xs:element name="LoopbackURL" type="xs:anyURI" minOccurs="0" />
+							<xs:element name="DefaultDocument" type="xs:string" minOccurs="0" />
+							<xs:element name="KeepRunning" type="xs:boolean" minOccurs="0" default="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="ApplicationsDataSetKey" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:CassiniApplications" />
+			<xs:field xpath="mstns:ApplicationID" />
+		</xs:key>
+	</xs:element>
+</xs:schema>
