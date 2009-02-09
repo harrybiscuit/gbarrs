@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{029CB0B9-C67F-4438-A5C0-39AA5F6AD0F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BriteBIT.Stuff</RootNamespace>
+    <AssemblyName>BriteBIT.Stuff</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Components.Validator, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ReferencedAssemblies\Castle.Components.Validator.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Gac.cs" />
+    <Compile Include="CassiniWrapper\WebServerConfiguration.cs" />
+    <Compile Include="CassiniWrapper\WebServer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Cassini Web Server Explorer\ApplicationsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApplicationsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Validation\Castle\DirectoryValidator.cs" />
+    <Compile Include="Validation\Castle\FilePathValidator.cs" />
+    <Compile Include="Validation\Castle\ValidateDirectoryAttribute.cs" />
+    <Compile Include="Validation\Castle\ValidateFilePathAttribute.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\AboutCassini.htm" />
+    <Content Include="Resources\Cassini Web Server Explorer\ApplicationDetails.aspx" />
+    <Content Include="Resources\Cassini Web Server Explorer\bin\AjaxPro.dll" />
+    <Content Include="Resources\Cassini Web Server Explorer\bin\Interop.IWshRuntimeLibrary.dll" />
+    <Content Include="Resources\Cassini Web Server Explorer\bin\UltiDevCassiniExplorer1a.dll" />
+    <Content Include="Resources\Cassini Web Server Explorer\bin\UltiDevCassiniServerConfiguration.dll" />
+    <Content Include="Resources\Cassini Web Server Explorer\CassiniConfigurationService.asmx" />
+    <Content Include="Resources\Cassini Web Server Explorer\Default.aspx" />
+    <Content Include="Resources\Cassini Web Server Explorer\Explorer.ico" />
+    <Content Include="Resources\Cassini Web Server Explorer\Global.asax" />
+    <Content Include="Resources\Cassini Web Server Explorer\GoToApplication.aspx" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\about-main-over.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\about-main.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\about1-1.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\about1-2.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\about2-1.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\about2-2.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\banner.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\bottom.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\buttons\cancel.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\buttons\edit-unreg-space.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\buttons\edit.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\buttons\generate.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\buttons\save.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\buttons\submit.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\buttons\unregister.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\left.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\logo-text.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\middle.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\pix.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\register-main-over.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\register-main.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\register1-1.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\register1-2.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\register1.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\register2-1.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\register2-2.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\register2.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\right.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\top.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\ultidev-main-over.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\ultidev-main.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\ultidev1.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\images\ultidev2.gif" />
+    <Content Include="Resources\Cassini Web Server Explorer\LocalStart.htm" />
+    <Content Include="Resources\Cassini Web Server Explorer\Main.css" />
+    <Content Include="Resources\Cog.ico" />
+    <Content Include="Resources\Help.ico" />
+    <Content Include="Resources\Interop.IWshRuntimeLibrary.dll" />
+    <Content Include="Resources\Interop.NetFwTypeLib.dll" />
+    <Content Include="Resources\UltiDev.ico" />
+    <Content Include="Resources\UltiDevCassiniHttpRequestProcessor2.0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\UltiDevCassiniServerConfiguration.dll" />
+    <Content Include="Resources\UltiDevCassinWebServer2.exe" />
+    <Content Include="Resources\UltiDevCassinWebServer2a.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cassini Web Server Explorer\ApplicationsDataSet.xsc">
+      <DependentUpon>ApplicationsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Cassini Web Server Explorer\ApplicationsDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ApplicationsDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Cassini Web Server Explorer\ApplicationsDataSet.xss">
+      <DependentUpon>ApplicationsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Cassini Web Server Explorer\bin\ultidevcassiniexplorer1a.InstallState" />
+    <None Include="Resources\Cassini Web Server Explorer\Cassini EULA.rtf" />
+    <None Include="Resources\Cassini Web Server Explorer\doc\Cassini Configuration API Documentation.chm" />
+    <None Include="Resources\Cassini Web Server Explorer\Web.config" />
+    <None Include="Resources\RestartCassiniService.bat" />
+    <None Include="Resources\UltiDevCassinWebServer2a.exe.config" />
+    <None Include="Resources\UltiDevCassinWebServer2a.InstallState" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
